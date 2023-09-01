@@ -7,8 +7,6 @@ from mautrix.bridge import Bridge
 from mautrix.types import RoomID, UserID
 from mautrix.util import background_task
 
-from . import commands
-
 class TwitterBridge(Bridge):
     module = "matrix_phone_bridge"
     name = "matrix-phone-bridge"
